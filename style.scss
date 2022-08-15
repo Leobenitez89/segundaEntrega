@@ -1,0 +1,17 @@
+// Create your own map
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+    "logo1": #ef4452,
+    "logo2": #9f2b00,
+    "paleta1": #acecd5,
+    "paleta2": #fff9aa,
+    "paleta3": #ffd5b8,
+    "paleta4": #ffb9b3,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

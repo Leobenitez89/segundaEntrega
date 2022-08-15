@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #fefefd;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all 0.5s;
+    will-change: width;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    right: 0;
+}
+
+/*=====HERO=======*/
+#hero {
+    background: url(../img/hero-img.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+.texto-hero {
+    margin-top: 150px;
+}
+
+.btn-hero {
+    background-color: #ef4452;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px 50px 12px 50px;
+}
+
+/*=====SECCION 2: HOLA SOY ALEJANDRA=======*/
+
+#soy-alejandra {
+    min-height: 80vh;
+}
+
+.container-fluid2 {
+    width: 500px;
+    padding-top: 50px;
+    margin-left: px;
+}
+
+.btn-aleja {
+    text-decoration: none;
+    background-color: #ef4452;
+    border-radius: 10px;
+    padding: 12px 50px 12px 50px;
+}
+
+/*=====SECCION 3: MI ESPECIALIDAD=======*/
+#mi-especialidad {
+    background: url(../img/backgraund\ pattern\ .jpg);
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*=====FOTTER=======*/
+
+footer {
+    min-height: 20vh;
+    background: linear-gradient(to top, #9f2b00, #d13902);
+}
+
+.logoblanco {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer-escribeme {
+    margin-top: 40px;
+}
+
+/*=====SOBRE MI =======*/
+
+#sobre-mi {
+    min-height: 75vh;
+}
+
+#galeria-sobremi {
+    min-height: 45vh;
+}
+
+/*=====SOBRE MI =======*/
+
+#miEspecialidad {
+    min-height: 75vh;
+}
+
+/*=====CONTACTO=======*/
+#formulario {
+    background: url(../img/contacto\ 2\ img\ .jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
